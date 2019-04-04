@@ -38,4 +38,42 @@ mysql 5.7.20
 
 django-rest-framework 3.7.3
 
+系统部署:
+
+在Ubuntu16.04 LTS中，我们当前情况下准备使用NGINX部署,如下：
+
+sudo apt install nginx
+
+service nginx restart
+
+支持php文件解析：
+
+sudo apt install php php-fpm
+
+配置虚拟环境并运行:
+
+sudo apt install python3-dev
+
+sudo apt install python3-venv
+
+python3 –m venv ./venv
+
+Source .venv/bin/activate
+
+安装uwsgi:
+
+pip install uwsgi
+
+安装django:
+
+pip install Django
+
+连接django到NGINX，运行uwsgi:
+
+uwsgi –ini uwsgi.ini
+
+启动nginx:
+
+service nginx restart
+
 
