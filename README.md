@@ -1,5 +1,5 @@
 # iKNOW
-**iKNOW---the college competition platform website
+## iKNOW---the college competition platform website
 
 
 本项目基于vue前端, django rest framework后端实现了一个大学生竞赛平台网站：
@@ -18,7 +18,7 @@ iKNOW大学生竞赛平台，致力于实现当前市场现有竞赛平台网站
 
 5.用户之间可以进行私信往来
 
-**配置环境:
+##配置环境:
 
 前端：
 
@@ -38,7 +38,7 @@ mysql 5.7.20
 
 django-rest-framework 3.7.3
 
-**系统部署:
+##系统部署:
 
 在Ubuntu16.04 LTS中，我们当前情况下准备使用NGINX部署,如下：
 
