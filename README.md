@@ -2,7 +2,7 @@
 ## iKNOW---the college competition platform website
 
 
-本项目基于vue前端, django rest framework后端实现了一个大学生竞赛平台网站：
+本项目基于vue前端, django rest framework后端实现了一个大学生大数据竞赛平台网站：
 
 ![图片说明1](https://github.com/chenchao15/iKNOW/blob/master/doc/open.png)
 
